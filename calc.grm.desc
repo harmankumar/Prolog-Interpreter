@@ -1,0 +1,1858 @@
+168 shift/reduce conflicts
+
+error:  state 38: shift/reduce conflict (shift EXP, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift MULT, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift MOD, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift DIV, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift SUB, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift PLUS, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift NEQ, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift LTEQ, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift GTEQ, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift EQ, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift LT, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift GT, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift OR, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift AND, reduce by rule 20)
+error:  state 42: shift/reduce conflict (shift MOD, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift NEQ, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift LTEQ, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift GTEQ, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift EQ, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift LT, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift GT, reduce by rule 19)
+error:  state 46: shift/reduce conflict (shift MOD, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift NEQ, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift LTEQ, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift GTEQ, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift EQ, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift LT, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift GT, reduce by rule 34)
+error:  state 47: shift/reduce conflict (shift MOD, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift NEQ, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift LTEQ, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift GTEQ, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift EQ, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift LT, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift GT, reduce by rule 31)
+error:  state 48: shift/reduce conflict (shift EXP, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift MULT, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift MOD, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift DIV, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift SUB, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift PLUS, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift NEQ, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift LTEQ, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift GTEQ, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift EQ, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift LT, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift GT, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift OR, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift AND, reduce by rule 33)
+error:  state 49: shift/reduce conflict (shift MOD, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift NEQ, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift LTEQ, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift GTEQ, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift EQ, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift LT, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift GT, reduce by rule 32)
+error:  state 50: shift/reduce conflict (shift MOD, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift NEQ, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift LTEQ, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift GTEQ, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift EQ, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift LT, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift GT, reduce by rule 30)
+error:  state 51: shift/reduce conflict (shift MOD, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift NEQ, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift LTEQ, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift GTEQ, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift EQ, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift LT, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift GT, reduce by rule 29)
+error:  state 52: shift/reduce conflict (shift EXP, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift MULT, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift MOD, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift DIV, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift SUB, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift PLUS, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift NEQ, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift LTEQ, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift GTEQ, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift EQ, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift LT, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift GT, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift OR, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift AND, reduce by rule 26)
+error:  state 53: shift/reduce conflict (shift EXP, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift MULT, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift MOD, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift DIV, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift SUB, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift PLUS, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift NEQ, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift LTEQ, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift GTEQ, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift EQ, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift LT, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift GT, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift OR, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift AND, reduce by rule 28)
+error:  state 54: shift/reduce conflict (shift EXP, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift MULT, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift MOD, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift DIV, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift SUB, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift PLUS, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift NEQ, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift LTEQ, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift GTEQ, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift EQ, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift LT, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift GT, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift OR, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift AND, reduce by rule 27)
+error:  state 55: shift/reduce conflict (shift EXP, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift MULT, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift MOD, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift DIV, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift SUB, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift PLUS, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift NEQ, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift LTEQ, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift GTEQ, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift EQ, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift LT, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift GT, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift OR, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift AND, reduce by rule 25)
+error:  state 56: shift/reduce conflict (shift EXP, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift MULT, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift MOD, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift DIV, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift SUB, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift PLUS, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift NEQ, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift LTEQ, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift GTEQ, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift EQ, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift LT, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift GT, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift OR, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift AND, reduce by rule 24)
+error:  state 57: shift/reduce conflict (shift EXP, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift MULT, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift MOD, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift DIV, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift SUB, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift PLUS, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift NEQ, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift LTEQ, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift GTEQ, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift EQ, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift LT, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift GT, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift OR, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift AND, reduce by rule 23)
+error:  state 59: shift/reduce conflict (shift MOD, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift NEQ, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift LTEQ, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift GTEQ, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift EQ, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift LT, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift GT, reduce by rule 22)
+error:  state 60: shift/reduce conflict (shift MOD, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift NEQ, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift LTEQ, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift GTEQ, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift EQ, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift LT, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift GT, reduce by rule 21)
+
+state 0:
+
+	Program : . Declarationlist 
+
+	QUERY	shift 7
+	IMPOS	shift 6
+
+	Program	goto 72
+	Declarationlist	goto 5
+	Declaration	goto 4
+	Fact	goto 3
+	Rule	goto 2
+	Goal	goto 1
+
+	.	error
+
+
+state 1:
+
+	Declaration : Goal .  (reduce by rule 7)
+
+
+
+	.	reduce by rule 7
+
+
+state 2:
+
+	Declaration : Rule .  (reduce by rule 6)
+
+
+
+	.	reduce by rule 6
+
+
+state 3:
+
+	Declaration : Fact .  (reduce by rule 5)
+
+
+
+	.	reduce by rule 5
+
+
+state 4:
+
+	Declarationlist : Declaration .  (reduce by rule 1)
+	Declarationlist : Declaration . Declarationlist 
+
+	QUERY	shift 7
+	IMPOS	shift 6
+
+	Declarationlist	goto 8
+	Declaration	goto 4
+	Fact	goto 3
+	Rule	goto 2
+	Goal	goto 1
+
+	.	reduce by rule 1
+
+
+state 5:
+
+	Program : Declarationlist .  (reduce by rule 0)
+
+
+
+	.	reduce by rule 0
+
+
+state 6:
+
+	Fact : IMPOS . Optree DOT 
+	Rule : IMPOS . Optree IF Optreelist DOT 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 11
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 7:
+
+	Goal : QUERY . Optreelist DOT 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 21
+	Optreelist	goto 20
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 8:
+
+	Declarationlist : Declaration Declarationlist .  (reduce by rule 2)
+
+
+
+	.	reduce by rule 2
+
+
+state 9:
+
+	Optree : Constant .  (reduce by rule 16)
+
+
+
+	.	reduce by rule 16
+
+
+state 10:
+
+	Optree : tylist .  (reduce by rule 18)
+
+
+
+	.	reduce by rule 18
+
+
+state 11:
+
+	Fact : IMPOS Optree . DOT 
+	Rule : IMPOS Optree . IF Optreelist DOT 
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	DOT	shift 37
+	AND	shift 36
+	OR	shift 35
+	IF	shift 34
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	error
+
+
+state 12:
+
+	Optree : ABS . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 38
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 13:
+
+	tylist : LSOLIDPAREN . RSOLIDPAREN 
+	tylist : LSOLIDPAREN . Optree CONS Optree RSOLIDPAREN 
+	tylist : LSOLIDPAREN . tylist1 RSOLIDPAREN 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	RSOLIDPAREN	shift 41
+	ABS	shift 12
+
+	Optree	goto 40
+	tylist1	goto 39
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 14:
+
+	Optree : NOT . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 42
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 15:
+
+	Optree : UCID .  (reduce by rule 17)
+
+
+
+	.	reduce by rule 17
+
+
+state 16:
+
+	Optree : LCID . LPAREN Optreelist RPAREN 
+	Constant : LCID .  (reduce by rule 39)
+
+	LPAREN	shift 43
+
+
+	.	reduce by rule 39
+
+
+state 17:
+
+	Constant : RATIONAL .  (reduce by rule 37)
+
+
+
+	.	reduce by rule 37
+
+
+state 18:
+
+	Constant : NUM .  (reduce by rule 38)
+
+
+
+	.	reduce by rule 38
+
+
+state 19:
+
+	Constant : BOOLEAN .  (reduce by rule 36)
+
+
+
+	.	reduce by rule 36
+
+
+state 20:
+
+	Goal : QUERY Optreelist . DOT 
+
+	DOT	shift 44
+
+
+	.	error
+
+
+state 21:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+	Optreelist : Optree .  (reduce by rule 3)
+	Optreelist : Optree . COMMA Optreelist 
+
+	COMMA	shift 45
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 3
+
+
+state 22:
+
+	Optree : Optree EXP . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 46
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 23:
+
+	Optree : Optree MULT . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 47
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 24:
+
+	Optree : Optree MOD . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 48
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 25:
+
+	Optree : Optree DIV . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 49
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 26:
+
+	Optree : Optree SUB . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 50
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 27:
+
+	Optree : Optree PLUS . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 51
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 28:
+
+	Optree : Optree NEQ . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 52
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 29:
+
+	Optree : Optree LTEQ . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 53
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 30:
+
+	Optree : Optree GTEQ . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 54
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 31:
+
+	Optree : Optree EQ . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 55
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 32:
+
+	Optree : Optree LT . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 56
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 33:
+
+	Optree : Optree GT . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 57
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 34:
+
+	Rule : IMPOS Optree IF . Optreelist DOT 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 21
+	Optreelist	goto 58
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 35:
+
+	Optree : Optree OR . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 59
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 36:
+
+	Optree : Optree AND . Optree 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 60
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 37:
+
+	Fact : IMPOS Optree DOT .  (reduce by rule 8)
+
+
+
+	.	reduce by rule 8
+
+error:  state 38: shift/reduce conflict (shift EXP, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift MULT, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift MOD, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift DIV, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift SUB, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift PLUS, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift NEQ, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift LTEQ, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift GTEQ, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift EQ, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift LT, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift GT, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift OR, reduce by rule 20)
+error:  state 38: shift/reduce conflict (shift AND, reduce by rule 20)
+
+state 38:
+
+	Optree : ABS Optree .  (reduce by rule 20)
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 20
+
+
+state 39:
+
+	tylist : LSOLIDPAREN tylist1 . RSOLIDPAREN 
+
+	RSOLIDPAREN	shift 61
+
+
+	.	error
+
+
+state 40:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+	tylist1 : Optree .  (reduce by rule 14)
+	tylist1 : Optree . COMMA tylist1 
+	tylist : LSOLIDPAREN Optree . CONS Optree RSOLIDPAREN 
+
+	COMMA	shift 63
+	AND	shift 36
+	OR	shift 35
+	CONS	shift 62
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 14
+
+
+state 41:
+
+	tylist : LSOLIDPAREN RSOLIDPAREN .  (reduce by rule 11)
+
+
+
+	.	reduce by rule 11
+
+error:  state 42: shift/reduce conflict (shift MOD, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift NEQ, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift LTEQ, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift GTEQ, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift EQ, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift LT, reduce by rule 19)
+error:  state 42: shift/reduce conflict (shift GT, reduce by rule 19)
+
+state 42:
+
+	Optree : NOT Optree .  (reduce by rule 19)
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	MOD	shift 24
+	EXP	shift 22
+
+
+	.	reduce by rule 19
+
+
+state 43:
+
+	Optree : LCID LPAREN . Optreelist RPAREN 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 21
+	Optreelist	goto 64
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 44:
+
+	Goal : QUERY Optreelist DOT .  (reduce by rule 10)
+
+
+
+	.	reduce by rule 10
+
+
+state 45:
+
+	Optreelist : Optree COMMA . Optreelist 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 21
+	Optreelist	goto 65
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+error:  state 46: shift/reduce conflict (shift MOD, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift NEQ, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift LTEQ, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift GTEQ, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift EQ, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift LT, reduce by rule 34)
+error:  state 46: shift/reduce conflict (shift GT, reduce by rule 34)
+
+state 46:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+	Optree : Optree EXP Optree .  (reduce by rule 34)
+
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	MOD	shift 24
+	EXP	shift 22
+
+
+	.	reduce by rule 34
+
+error:  state 47: shift/reduce conflict (shift MOD, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift NEQ, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift LTEQ, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift GTEQ, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift EQ, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift LT, reduce by rule 31)
+error:  state 47: shift/reduce conflict (shift GT, reduce by rule 31)
+
+state 47:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree MULT Optree .  (reduce by rule 31)
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	MOD	shift 24
+	EXP	shift 22
+
+
+	.	reduce by rule 31
+
+error:  state 48: shift/reduce conflict (shift EXP, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift MULT, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift MOD, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift DIV, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift SUB, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift PLUS, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift NEQ, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift LTEQ, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift GTEQ, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift EQ, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift LT, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift GT, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift OR, reduce by rule 33)
+error:  state 48: shift/reduce conflict (shift AND, reduce by rule 33)
+
+state 48:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree MOD Optree .  (reduce by rule 33)
+	Optree : Optree . EXP Optree 
+
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 33
+
+error:  state 49: shift/reduce conflict (shift MOD, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift NEQ, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift LTEQ, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift GTEQ, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift EQ, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift LT, reduce by rule 32)
+error:  state 49: shift/reduce conflict (shift GT, reduce by rule 32)
+
+state 49:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree DIV Optree .  (reduce by rule 32)
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	MOD	shift 24
+	EXP	shift 22
+
+
+	.	reduce by rule 32
+
+error:  state 50: shift/reduce conflict (shift MOD, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift NEQ, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift LTEQ, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift GTEQ, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift EQ, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift LT, reduce by rule 30)
+error:  state 50: shift/reduce conflict (shift GT, reduce by rule 30)
+
+state 50:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree SUB Optree .  (reduce by rule 30)
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 30
+
+error:  state 51: shift/reduce conflict (shift MOD, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift NEQ, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift LTEQ, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift GTEQ, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift EQ, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift LT, reduce by rule 29)
+error:  state 51: shift/reduce conflict (shift GT, reduce by rule 29)
+
+state 51:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree PLUS Optree .  (reduce by rule 29)
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 29
+
+error:  state 52: shift/reduce conflict (shift EXP, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift MULT, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift MOD, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift DIV, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift SUB, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift PLUS, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift NEQ, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift LTEQ, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift GTEQ, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift EQ, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift LT, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift GT, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift OR, reduce by rule 26)
+error:  state 52: shift/reduce conflict (shift AND, reduce by rule 26)
+
+state 52:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree NEQ Optree .  (reduce by rule 26)
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 26
+
+error:  state 53: shift/reduce conflict (shift EXP, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift MULT, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift MOD, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift DIV, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift SUB, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift PLUS, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift NEQ, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift LTEQ, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift GTEQ, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift EQ, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift LT, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift GT, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift OR, reduce by rule 28)
+error:  state 53: shift/reduce conflict (shift AND, reduce by rule 28)
+
+state 53:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree LTEQ Optree .  (reduce by rule 28)
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 28
+
+error:  state 54: shift/reduce conflict (shift EXP, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift MULT, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift MOD, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift DIV, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift SUB, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift PLUS, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift NEQ, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift LTEQ, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift GTEQ, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift EQ, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift LT, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift GT, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift OR, reduce by rule 27)
+error:  state 54: shift/reduce conflict (shift AND, reduce by rule 27)
+
+state 54:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree GTEQ Optree .  (reduce by rule 27)
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 27
+
+error:  state 55: shift/reduce conflict (shift EXP, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift MULT, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift MOD, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift DIV, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift SUB, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift PLUS, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift NEQ, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift LTEQ, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift GTEQ, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift EQ, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift LT, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift GT, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift OR, reduce by rule 25)
+error:  state 55: shift/reduce conflict (shift AND, reduce by rule 25)
+
+state 55:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree EQ Optree .  (reduce by rule 25)
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 25
+
+error:  state 56: shift/reduce conflict (shift EXP, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift MULT, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift MOD, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift DIV, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift SUB, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift PLUS, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift NEQ, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift LTEQ, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift GTEQ, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift EQ, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift LT, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift GT, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift OR, reduce by rule 24)
+error:  state 56: shift/reduce conflict (shift AND, reduce by rule 24)
+
+state 56:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree LT Optree .  (reduce by rule 24)
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 24
+
+error:  state 57: shift/reduce conflict (shift EXP, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift MULT, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift MOD, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift DIV, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift SUB, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift PLUS, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift NEQ, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift LTEQ, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift GTEQ, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift EQ, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift LT, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift GT, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift OR, reduce by rule 23)
+error:  state 57: shift/reduce conflict (shift AND, reduce by rule 23)
+
+state 57:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree GT Optree .  (reduce by rule 23)
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 23
+
+
+state 58:
+
+	Rule : IMPOS Optree IF Optreelist . DOT 
+
+	DOT	shift 66
+
+
+	.	error
+
+error:  state 59: shift/reduce conflict (shift MOD, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift NEQ, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift LTEQ, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift GTEQ, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift EQ, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift LT, reduce by rule 22)
+error:  state 59: shift/reduce conflict (shift GT, reduce by rule 22)
+
+state 59:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree OR Optree .  (reduce by rule 22)
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 22
+
+error:  state 60: shift/reduce conflict (shift MOD, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift NEQ, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift LTEQ, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift GTEQ, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift EQ, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift LT, reduce by rule 21)
+error:  state 60: shift/reduce conflict (shift GT, reduce by rule 21)
+
+state 60:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree AND Optree .  (reduce by rule 21)
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 21
+
+
+state 61:
+
+	tylist : LSOLIDPAREN tylist1 RSOLIDPAREN .  (reduce by rule 13)
+
+
+
+	.	reduce by rule 13
+
+
+state 62:
+
+	tylist : LSOLIDPAREN Optree CONS . Optree RSOLIDPAREN 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 67
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 63:
+
+	tylist1 : Optree COMMA . tylist1 
+
+	BOOLEAN	shift 19
+	NUM	shift 18
+	RATIONAL	shift 17
+	LCID	shift 16
+	UCID	shift 15
+	NOT	shift 14
+	LSOLIDPAREN	shift 13
+	ABS	shift 12
+
+	Optree	goto 69
+	tylist1	goto 68
+	tylist	goto 10
+	Constant	goto 9
+
+	.	error
+
+
+state 64:
+
+	Optree : LCID LPAREN Optreelist . RPAREN 
+
+	RPAREN	shift 70
+
+
+	.	error
+
+
+state 65:
+
+	Optreelist : Optree COMMA Optreelist .  (reduce by rule 4)
+
+
+
+	.	reduce by rule 4
+
+
+state 66:
+
+	Rule : IMPOS Optree IF Optreelist DOT .  (reduce by rule 9)
+
+
+
+	.	reduce by rule 9
+
+
+state 67:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+	tylist : LSOLIDPAREN Optree CONS Optree . RSOLIDPAREN 
+
+	AND	shift 36
+	OR	shift 35
+	RSOLIDPAREN	shift 71
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	error
+
+
+state 68:
+
+	tylist1 : Optree COMMA tylist1 .  (reduce by rule 15)
+
+
+
+	.	reduce by rule 15
+
+
+state 69:
+
+	Optree : Optree . AND Optree 
+	Optree : Optree . OR Optree 
+	Optree : Optree . GT Optree 
+	Optree : Optree . LT Optree 
+	Optree : Optree . EQ Optree 
+	Optree : Optree . NEQ Optree 
+	Optree : Optree . GTEQ Optree 
+	Optree : Optree . LTEQ Optree 
+	Optree : Optree . PLUS Optree 
+	Optree : Optree . SUB Optree 
+	Optree : Optree . MULT Optree 
+	Optree : Optree . DIV Optree 
+	Optree : Optree . MOD Optree 
+	Optree : Optree . EXP Optree 
+	tylist1 : Optree .  (reduce by rule 14)
+	tylist1 : Optree . COMMA tylist1 
+
+	COMMA	shift 63
+	AND	shift 36
+	OR	shift 35
+	GT	shift 33
+	LT	shift 32
+	EQ	shift 31
+	GTEQ	shift 30
+	LTEQ	shift 29
+	NEQ	shift 28
+	PLUS	shift 27
+	SUB	shift 26
+	DIV	shift 25
+	MOD	shift 24
+	MULT	shift 23
+	EXP	shift 22
+
+
+	.	reduce by rule 14
+
+
+state 70:
+
+	Optree : LCID LPAREN Optreelist RPAREN .  (reduce by rule 35)
+
+
+
+	.	reduce by rule 35
+
+
+state 71:
+
+	tylist : LSOLIDPAREN Optree CONS Optree RSOLIDPAREN .  (reduce by rule 12)
+
+
+
+	.	reduce by rule 12
+
+
+state 72:
+
+
+	EOF	accept
+	SEMI	accept
+
+
+	.	error
+
+293 of 542 action table entries left after compaction
+89 goto table entries

@@ -1,0 +1,47 @@
+
+
+val prog1 = "$ edge(a,b). $edge(a,c). $ edge(a,d). ? edge(a,T). ;";
+
+val prog2 = "$ edge(a,b). $ edge(b,c). $ edge(a,d). $ edge(d,harman(i,j)). $ path(A,C) :- edge(A,B) , edge(B,C). ? path(a,R). ;";
+
+val prog3 = "$ member(X,[X|R]). $ member (A,[B|R]) :- member (A,R). ? member(Z , [a,b,c,d]). ;";
+
+val prog4 = "$ append([] , X , X). $ append(Z , [] , Z) . $ append([A|B] , C , [A|Y]) :- append(B,C,Y). ? append( N , M , [a,b,c]). ;";
+
+val prog5 = "$ edge(a,c). $edge(c,b). $ edge(a,d). $ edge(d,b). ? edge(a,X) , edge(X,b). ;";
+
+val prog6 = "$ edge(a,b). $ edge(b,c). $ edge(a,d). $ edge(d,f). $ path(A,C) :- edge(A,B) , path(B,C). ? path(a,R). ;";
+
+val prog7 = "$ edge(a,b). $ edge(b,c). $ path(X,X). $ path(X,Y):- edge(X,Z),path(Z,Y). ?path(a,M). ? path(b,K). ?path(a,c). ?path(a,v). ;";
+
+val prog8 = "$ edge(a,b). $ edge(a,g). $ edge(b,d). $ edge(c,d). $ edge(g,c). $ edge(g,f). $ edge(c,e). $ edge(e,d). $ path(X,X). $ path(S,T) :- edge(S,T). $ path(D,F) :- edge(D,E) , path(E,F). ? path(a,M).; ";
+
+(*)
+val parsing = parse prog4;
+*)
+
+val t1 = str_load ( prog8);
+
+val t2 = prun_loaded();
+
+
+
+val par1 = parse prog4;
+
+
+val tester = unif.mostgenunif(Absyn.NODE("list" , [Absyn.NONVARIABLE( Absyn.LCID "a") , Absyn.VARIABLE("Y")]) , Absyn.NODE("list" , [Absyn.NONVARIABLE( Absyn.LCID "a") , Absyn.NONVARIABLE( Absyn.LCID "b") ]))
+
+val in1 = interpret prog7;
+
+val praytogod = printerpret prog7;
+*)
+
+(*)
+val Absyn.PROGRAM(Absyn.GOAL(x1)::xs) = x;
+
+val y = Calc.parse_string "$ edge([a | harman(b,c)] ,d). ? edge(a,x). ;";
+
+val Absyn.PROGRAM(Absyn.FACT(y1)::ys) = y;
+
+val z = unif.mostgenunif(hd(x1),y1);
+*)

@@ -1,0 +1,201 @@
+
+%%
+
+%term 
+   BOOLEAN of bool | NUM of int | RATIONAL of real 
+  | FUNC | LCID of string | UCID of string
+  | EOF | DOT | SEMI | COMMA | LPAREN | RPAREN 
+  | NOT | AND | OR | IF | CONS | LSOLIDPAREN | RSOLIDPAREN 
+  |GT | LT | EQ | GTEQ | LTEQ | NEQ | QUERY
+  | PLUS | SUB | DIV | MOD | MULT | ABS | EXP | IMPOS
+
+
+
+%start Program
+
+%eop EOF SEMI
+
+
+%pos int
+
+%left AND OR
+%left SUB PLUS
+%left MULT DIV
+%left NOT
+%right EXP
+
+%name Calc
+
+%prefer DOT AND OR DIV MULT PLUS SUB 
+%keyword SEMI
+%noshift EOF
+%verbose
+%pure
+
+%nonterm 
+  Program of Absyn.program
+  | Declarationlist of (Absyn.declaration list) 
+  | Declaration of Absyn.declaration
+  | Fact of Absyn.declaration 
+  | Rule of Absyn.declaration 
+  | Goal of Absyn.declaration
+  | Optree of Absyn.optree
+  | Optreelist of ( Absyn.optree list ) 
+  | tylist1 of  Absyn.optree 
+  | tylist of  Absyn.optree 
+  | Constant of Absyn.const
+
+
+%%
+
+Program : Declarationlist ( Absyn.PROGRAM( Declarationlist ))
+
+Declarationlist : Declaration ( [Declaration] )
+                | Declaration Declarationlist ( Declaration::Declarationlist )
+
+
+Optreelist : Optree ( [Optree] )
+            | Optree COMMA Optreelist ( Optree::Optreelist )
+            
+Declaration : Fact ( Fact )
+            | Rule ( Rule )
+            | Goal ( Goal )
+  
+Fact : IMPOS Optree DOT ( Absyn.FACT( Optree ))
+
+Rule : IMPOS Optree IF Optreelist DOT (Absyn.RULE( Optree, Optreelist))
+
+Goal : QUERY Optreelist DOT (Absyn.GOAL(Optreelist))
+            
+(*  Include the case for lists also.
+	1) []
+	2) [exprlist | exprlist]
+	3) [ exprlist ]
+*)
+
+
+
+
+        tylist : LSOLIDPAREN RSOLIDPAREN ( Absyn.NONVARIABLE( Absyn.LCID ("empty")) )
+          | LSOLIDPAREN Optree CONS Optree RSOLIDPAREN ( Absyn.NODE("Listof " ,  Optree1::[Optree2] ))
+          | LSOLIDPAREN tylist1 RSOLIDPAREN ( tylist1 )
+
+        tylist1 : Optree ( Absyn.NODE("Listof " , Optree::[Absyn.NONVARIABLE( Absyn.LCID("empty"))]  ) )
+         | Optree COMMA tylist1 ( Absyn.NODE("Listof " , Optree::[tylist1] ))
+
+
+Optree :  Constant (Absyn.NONVARIABLE(Constant))
+      	  | UCID (Absyn.VARIABLE(UCID))
+ 
+   (*)       | LSOLIDPAREN RSOLIDPAREN (Absyn.NODE( "List" , []))
+          | LSOLIDPAREN Optreelist RSOLIDPAREN (Absyn.NODE( "List" , Optreelist))
+          | LSOLIDPAREN Optree CONS Optreelist RSOLIDPAREN (Absyn.NODE( "List" , Optree::Optreelist))
+*)
+          | tylist     ( tylist ) 
+          | NOT Optree ( Absyn.NODE("not" , [Optree]))
+          | ABS Optree ( Absyn.NODE("abs" , [Optree]))
+          | Optree AND Optree ( Absyn.NODE( "and" , [Optree1 , Optree2])) 
+          | Optree OR Optree ( Absyn.NODE( "or" , [Optree1 , Optree2]))
+          | Optree GT Optree ( Absyn.NODE( "gt" , [Optree1 , Optree2]))
+          | Optree LT Optree ( Absyn.NODE( "lt" , [Optree1 , Optree2]))
+          | Optree EQ Optree ( Absyn.NODE( "eq" , [Optree1 , Optree2]))
+          | Optree NEQ Optree ( Absyn.NODE( "neq" , [Optree1 , Optree2]))
+          | Optree GTEQ Optree ( Absyn.NODE( "gteq" , [Optree1 , Optree2]))
+          | Optree LTEQ Optree ( Absyn.NODE( "lteq" , [Optree1 , Optree2]))
+          | Optree PLUS Optree ( Absyn.NODE( "add" , [Optree1 , Optree2]))
+          | Optree SUB Optree ( Absyn.NODE( "sub" , [Optree1 , Optree2]))
+          | Optree MULT Optree ( Absyn.NODE( "mult" , [Optree1 , Optree2]))
+          | Optree DIV Optree ( Absyn.NODE( "div" , [Optree1 , Optree2]))
+          | Optree MOD Optree ( Absyn.NODE( "mod" , [Optree1 , Optree2]))
+          | Optree EXP Optree ( Absyn.NODE( "exp" , [Optree1 , Optree2]))
+          | LCID LPAREN Optreelist RPAREN ( Absyn.NODE( LCID,Optreelist) )
+
+Constant : BOOLEAN (Absyn.BOOL(BOOLEAN))
+		| RATIONAL (Absyn.RATIONAL(RATIONAL))
+		| NUM 	(Absyn.INT(NUM))
+		| LCID  (Absyn.LCID(LCID))
+
+
+
+(*
+
+%nonterm 
+  Program of Absyn.program
+  | Declarationlist of (Absyn.declaration list) 
+  | Declaration of Absyn.declaration 
+  | Fact of Absyn.declaration | Rule of Absyn.declaration | Goal of Absyn.declaration
+  | Predicate of Absyn.predicate | Predicatelist of (Absyn.predicate list)
+  | NODE of Absyn.term 
+  | Symbol of Absyn.expression
+  | Head of Absyn.head 
+  | Body of Absyn.body 
+  | Term of Absyn.term 
+  | Termlist of (Absyn.term list)
+  | Expression of Absyn.expression
+
+ 
+
+
+Program : Declarationlist ( Absyn.PROGRAM( Declarationlist ))
+
+Declarationlist : Declaration ( [Declaration] )
+                | Declaration Declarationlist ( Declaration::Declarationlist )
+
+
+Fact : Predicate DOT ( Absyn.FACT( Predicate ))
+
+Rule : Head IF Body DOT (Absyn.RULE( Head , Body))
+
+Goal : QUERY Predicatelist DOT (Absyn.GOAL(Predicatelist))
+  
+  Head : Predicate ( Absyn.HEAD( Predicate ))
+  Body : Predicatelist ( Absyn.BODY ( Predicatelist ))
+  
+Predicatelist : Predicate ( [Predicate] )
+            | Predicate COMMA Predicatelist ( Predicate::Predicatelist )
+            
+Declaration : Fact ( Fact )
+            | Rule ( Rule )
+            | Goal ( Goal )
+            
+
+
+
+Predicate : Symbol LPAREN Termlist RPAREN ( Absyn.PREDICATE(Symbol , Termlist))
+NODE : Symbol LPAREN Termlist RPAREN (Absyn.NODE( Symbol , Termlist))
+   
+    Symbol : LCID (Absyn.NONVARIABLE(LCID))
+Termlist : Term ( [Term] )
+        | Term COMMA Termlist (Term::Termlist)
+
+Term : Expression ( Absyn.TERM (Expression))
+  | NODE ( NODE )
+
+
+Expression :  NUM (Absyn.NUM(NUM) )
+		  | RATIONAL (Absyn.RATIONAL(RATIONAL))
+          | BOOLEAN ( Absyn.BOOL(BOOLEAN))
+		  | UCID ( Absyn.VARIABLE(UCID) )
+          | LCID ( Absyn.NONVARIABLE(LCID) ) 
+          | 
+          
+          
+          | NOT Expression ( Absyn.UNARY_OP("not" , Expression))
+          | ABS Expression ( Absyn.UNARY_OP("abs" , Expression))
+          | Expression AND Expression      ( Absyn.BINARY_OP( "and" , Expression1 , Expression2)) 
+          | Expression OR Expression ( Absyn.BINARY_OP( "or" , Expression1 , Expression2))
+          | Expression GT Expression ( Absyn.BINARY_OP( "gt" , Expression1 , Expression2))
+          | Expression LT Expression ( Absyn.BINARY_OP( "lt" , Expression1 , Expression2))
+          | Expression EQ Expression ( Absyn.BINARY_OP( "eq" , Expression1 , Expression2))
+          | Expression NEQ Expression ( Absyn.BINARY_OP( "neq" , Expression1 , Expression2))
+          | Expression GTEQ Expression ( Absyn.BINARY_OP( "gteq" , Expression1 , Expression2))
+          | Expression LTEQ Expression ( Absyn.BINARY_OP( "lteq" , Expression1 , Expression2))
+          | Expression PLUS Expression ( Absyn.BINARY_OP( "add" , Expression1 , Expression2))
+          | Expression SUB Expression ( Absyn.BINARY_OP( "sub" , Expression1 , Expression2))
+          | Expression MULT Expression ( Absyn.BINARY_OP( "mult" , Expression1 , Expression2))
+          | Expression DIV Expression ( Absyn.BINARY_OP( "div" , Expression1 , Expression2))
+          | Expression MOD Expression ( Absyn.BINARY_OP( "mod" , Expression1 , Expression2))
+          | Expression EXP Expression ( Absyn.BINARY_OP( "exp" , Expression1 , Expression2))
+          | LPAREN Expression RPAREN ( Expression )
+
+     *)
